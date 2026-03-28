@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeighborMail — Hyper-Local Marketing That Reaches Every Door</title>
+  <meta name="description" content="Connect with customers within a 0.5-mile radius using calls, SMS, postcards, email, and social media — all from one innovative platform." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header id="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo-link">
+        <img src="assets/logo-full.png" alt="NeighborMail" class="logo" />
+      </a>
+      <nav class="desktop-nav">
+        <a href="#hero">Home</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#channels">Channels</a>
+        <a href="#contact">Contact</a>
+        <a href="#cta" class="btn btn-gradient btn-lg">Get Started</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <svg class="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg class="icon-close hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav hidden">
+      <a href="#hero">Home</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#features">Features</a>
+      <a href="#channels">Channels</a>
+      <a href="#contact">Contact</a>
+      <a href="#cta" class="btn btn-gradient btn-lg w-full">Get Started</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-teal"></div>
+    <div class="hero-bg-purple"></div>
+    <div class="hero-grid"></div>
+    <div class="container hero-container">
+      <div class="hero-grid-layout">
+        <div class="hero-content reveal" data-delay="0">
+          <div class="hero-badge gradient-border">
+            <span class="hero-badge-icon">✨</span>
+            Innovative Neighborhood Marketing
+            <span class="hero-badge-arrow">→</span>
+          </div>
+          <h1>Hyper-Local Marketing That <span class="gradient-text">Reaches Every Door</span></h1>
+          <p class="hero-subtitle">Connect with customers within a <strong>0.5-mile radius</strong> using calls, SMS, postcards, email, and social media — all from one innovative platform.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-gradient btn-lg gradient-shadow">Start Your Campaign →</a>
+            <a href="#features" class="btn btn-gradient-outline btn-lg">Learn More</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat reveal" data-delay="500">
+              <div class="stat-value gradient-text">500+</div>
+              <div class="stat-label">Local Businesses</div>
+            </div>
+            <div class="stat reveal" data-delay="600">
+              <div class="stat-value gradient-text">2M+</div>
+              <div class="stat-label">Doors Reached</div>
+            </div>
+            <div class="stat reveal" data-delay="700">
+              <div class="stat-value gradient-text">98%</div>
+              <div class="stat-label">Satisfaction</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual reveal" data-delay="300">
+          <div class="hero-visual-glow"></div>
+          <img src="assets/hero-visual.jpg" alt="NeighborMail radius targeting visualization" width="1280" height="720" />
+          <div class="floating-card floating-card-left float-anim">
+            <div class="floating-card-icon gradient-bg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="floating-card-label">Target Radius</div>
+              <div class="floating-card-value">0.5 miles</div>
+            </div>
+          </div>
+          <div class="floating-card floating-card-right float-anim-reverse">
+            <div class="floating-card-label">Channels Active</div>
+            <div class="channel-dots">
+              <span style="background:hsl(180,100%,50%)"></span>
+              <span style="background:hsl(195,100%,50%)"></span>
+              <span style="background:hsl(210,100%,50%)"></span>
+              <span style="background:hsl(240,60%,60%)"></span>
+              <span style="background:hsl(270,60%,65%)"></span>
+            </div>
+            <div class="floating-card-value">5 / 5</div>
+          </div>
+        </div>
+        <!-- Mobile hero image -->
+        <div class="hero-visual-mobile reveal" data-delay="500">
+          <img src="assets/hero-visual.jpg" alt="NeighborMail radius targeting visualization" width="1280" height="720" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <div class="ambient-glow ambient-glow-left"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge gradient-bg">Innovative Features</span>
+        <h2>Everything You Need to <span class="gradient-text">Go Local</span></h2>
+        <p>Cutting-edge tools designed to help local businesses dominate their neighborhood with precision marketing.</p>
+      </div>
+      <div class="card-grid card-grid-3">
+        <div class="feature-card reveal-card" data-delay="0">
+          <div class="feature-icon gradient-bg" style="background:linear-gradient(135deg,hsl(180,100%,50%),hsl(210,100%,50%))">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" x2="22" y1="12" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Radius-Based Targeting</h3>
+          <p>Pinpoint customers within a precise 0.5-mile radius of any location with GPS-level accuracy.</p>
+        </div>
+        <div class="feature-card reveal-card" data-delay="150">
+          <div class="feature-icon" style="background:linear-gradient(135deg,hsl(210,100%,50%),hsl(270,60%,65%))">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg>
+          </div>
+          <h3>Multi-Channel Marketing</h3>
+          <p>Reach audiences through calls, SMS, postcards, email, and social media — all from one platform.</p>
+        </div>
+        <div class="feature-card reveal-card" data-delay="300">
+          <div class="feature-icon" style="background:linear-gradient(135deg,hsl(180,100%,50%),hsl(210,100%,50%))">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Automated Campaigns</h3>
+          <p>Set it and forget it — smart automation handles delivery, timing, and optimization.</p>
+        </div>
+      </div>
+      <div class="card-grid card-grid-2 card-grid-centered">
+        <div class="feature-card reveal-card" data-delay="450">
+          <div class="feature-icon" style="background:linear-gradient(135deg,hsl(270,60%,65%),hsl(210,100%,50%))">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Smart Audience Reach</h3>
+          <p>AI-driven audience segmentation delivers your message to the right people at the right time.</p>
+        </div>
+        <div class="feature-card reveal-card" data-delay="600">
+          <div class="feature-icon" style="background:linear-gradient(135deg,hsl(210,100%,50%),hsl(180,100%,50%))">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          </div>
+          <h3>Performance Tracking</h3>
+          <p>Real-time analytics and actionable insights to optimize every campaign for maximum ROI.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="section section-subtle">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge gradient-bg">How It Works</span>
+        <h2>Three Steps to <span class="gradient-text">Local Domination</span></h2>
+        <p>Launch your first hyper-local campaign in minutes, not days.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step reveal-card" data-delay="0">
+          <div class="step-num gradient-text">01</div>
+          <div class="step-icon gradient-bg gradient-shadow">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Choose Your Target Area</h3>
+          <p>Select any address and set a 0.5-mile radius to define your audience with pinpoint accuracy.</p>
+        </div>
+        <div class="step reveal-card" data-delay="150">
+          <div class="step-num gradient-text">02</div>
+          <div class="step-icon gradient-bg gradient-shadow">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Select Your Channels</h3>
+          <p>Pick from calls, SMS, postcards, email, or social media — or use them all for maximum impact.</p>
+        </div>
+        <div class="step reveal-card" data-delay="300">
+          <div class="step-num gradient-text">03</div>
+          <div class="step-icon gradient-bg gradient-shadow">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+          </div>
+          <h3>Launch & Track</h3>
+          <p>Hit launch and monitor results with real-time performance dashboards and actionable insights.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Channels -->
+  <section id="channels" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge gradient-bg">Marketing Channels</span>
+        <h2>Five Channels, <span class="gradient-text">One Platform</span></h2>
+        <p>Every channel your local customers use — unified in a single innovative campaign.</p>
+      </div>
+      <div class="card-grid card-grid-3">
+        <div class="channel-card reveal-card" data-delay="0" data-hue="180">
+          <div class="channel-card-top-line" style="background:linear-gradient(90deg,transparent,hsl(180,100%,50%),transparent)"></div>
+          <div class="channel-icon" style="background:hsl(180,80%,50%,0.1)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="hsl(180,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3>Calls</h3>
+          <p>Personalized outreach via targeted phone calls to local prospects.</p>
+        </div>
+        <div class="channel-card reveal-card" data-delay="150" data-hue="195">
+          <div class="channel-card-top-line" style="background:linear-gradient(90deg,transparent,hsl(195,100%,50%),transparent)"></div>
+          <div class="channel-icon" style="background:hsl(195,80%,50%,0.1)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="hsl(195,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+          </div>
+          <h3>SMS</h3>
+          <p>Instant text messages with 98% open rates that get noticed.</p>
+        </div>
+        <div class="channel-card reveal-card" data-delay="300" data-hue="210">
+          <div class="channel-card-top-line" style="background:linear-gradient(90deg,transparent,hsl(210,100%,50%),transparent)"></div>
+          <div class="channel-icon" style="background:hsl(210,80%,50%,0.1)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="hsl(210,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <h3>Postcards</h3>
+          <p>Tangible direct mail that makes a lasting physical impression.</p>
+        </div>
+      </div>
+      <div class="card-grid card-grid-2 card-grid-centered">
+        <div class="channel-card reveal-card" data-delay="450" data-hue="240">
+          <div class="channel-card-top-line" style="background:linear-gradient(90deg,transparent,hsl(240,60%,60%),transparent)"></div>
+          <div class="channel-icon" style="background:hsl(240,60%,60%,0.1)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="hsl(240,60%,60%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+          </div>
+          <h3>Email</h3>
+          <p>Professional email campaigns with high deliverability and tracking.</p>
+        </div>
+        <div class="channel-card reveal-card" data-delay="600" data-hue="270">
+          <div class="channel-card-top-line" style="background:linear-gradient(90deg,transparent,hsl(270,60%,65%),transparent)"></div>
+          <div class="channel-icon" style="background:hsl(270,60%,65%,0.1)">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="hsl(270,60%,65%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>
+          </div>
+          <h3>Social Media</h3>
+          <p>Geo-targeted ads across all major social platforms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section section-subtle">
+    <div class="container">
+      <div class="benefits-grid">
+        <div class="benefits-text reveal">
+          <span class="badge gradient-bg">Why NeighborMail</span>
+          <h2>Why Local Businesses <span class="gradient-text">Choose Us</span></h2>
+          <p>NeighborMail delivers measurable results for businesses that rely on local foot traffic, community engagement, and neighborhood loyalty.</p>
+        </div>
+        <div class="benefits-list">
+          <div class="benefit-item reveal-card" data-delay="0">
+            <div class="benefit-icon gradient-bg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <span>Reach nearby customers instantly</span>
+            <svg class="benefit-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(180,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <div class="benefit-item reveal-card" data-delay="100">
+            <div class="benefit-icon gradient-bg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            </div>
+            <span>Increase local engagement by 10x</span>
+            <svg class="benefit-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(180,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <div class="benefit-item reveal-card" data-delay="200">
+            <div class="benefit-icon gradient-bg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <span>Smarter than traditional advertising</span>
+            <svg class="benefit-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(180,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <div class="benefit-item reveal-card" data-delay="300">
+            <div class="benefit-icon gradient-bg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <span>Better ROI for local businesses</span>
+            <svg class="benefit-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(180,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section-subtle">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge gradient-bg">Testimonials</span>
+        <h2>Trusted by <span class="gradient-text">Local Businesses</span></h2>
+        <p>See how neighborhood businesses are growing with hyper-local marketing.</p>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card reveal-card" data-delay="0">
+          <div class="testimonial-top-line" style="background:linear-gradient(90deg,hsl(180,100%,50%),transparent)"></div>
+          <div class="testimonial-quote" style="color:hsl(180,100%,50%,0.15)">❝</div>
+          <p>"NeighborMail tripled our foot traffic in just 6 weeks. We targeted homes within a half-mile and saw a 40% redemption rate on our postcard coupons. Nothing else has worked this well."</p>
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-author">
+            <img src="assets/testimonial-sarah.jpg" alt="Sarah Mitchell" width="44" height="44" loading="lazy" />
+            <div>
+              <strong>Sarah Mitchell</strong>
+              <span>Owner, Fresh Bakes Bakery</span>
+            </div>
+            <span class="testimonial-channel" style="background:hsl(180,100%,50%,0.08);color:hsl(180,100%,40%)">Postcards & SMS</span>
+          </div>
+        </div>
+        <div class="testimonial-card reveal-card" data-delay="100">
+          <div class="testimonial-top-line" style="background:linear-gradient(90deg,hsl(210,100%,50%),transparent)"></div>
+          <div class="testimonial-quote" style="color:hsl(210,100%,50%,0.15)">❝</div>
+          <p>"The hyper-local targeting is a game-changer. We went from zero to 85 recurring clients in our neighborhood. The combined email and call campaigns made all the difference."</p>
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-author">
+            <img src="assets/testimonial-marcus.jpg" alt="Marcus Johnson" width="44" height="44" loading="lazy" />
+            <div>
+              <strong>Marcus Johnson</strong>
+              <span>Founder, CleanPro Services</span>
+            </div>
+            <span class="testimonial-channel" style="background:hsl(210,100%,50%,0.08);color:hsl(210,100%,45%)">Email & Calls</span>
+          </div>
+        </div>
+        <div class="testimonial-card reveal-card" data-delay="200">
+          <div class="testimonial-top-line" style="background:linear-gradient(90deg,hsl(270,60%,65%),transparent)"></div>
+          <div class="testimonial-quote" style="color:hsl(270,60%,65%,0.15)">❝</div>
+          <p>"Our social media ads used to reach people 30 miles away. With NeighborMail we only reach locals — and our ROI jumped 5×. This is exactly what small businesses need."</p>
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-author">
+            <img src="assets/testimonial-linda.jpg" alt="Linda Nguyen" width="44" height="44" loading="lazy" />
+            <div>
+              <strong>Linda Nguyen</strong>
+              <span>Manager, Bloom Flower Studio</span>
+            </div>
+            <span class="testimonial-channel" style="background:hsl(270,60%,65%,0.08);color:hsl(270,60%,55%)">Social Media</span>
+          </div>
+        </div>
+        <div class="testimonial-card reveal-card" data-delay="300">
+          <div class="testimonial-top-line" style="background:linear-gradient(90deg,hsl(24,95%,53%),transparent)"></div>
+          <div class="testimonial-quote" style="color:hsl(24,95%,53%,0.15)">❝</div>
+          <p>"I was skeptical about SMS marketing, but NeighborMail's approach is different. We send timely offers to nearby residents and our appointment bookings went up 60%."</p>
+          <div class="testimonial-stars">★★★★<span style="opacity:0.3">★</span></div>
+          <div class="testimonial-author">
+            <img src="assets/testimonial-david.jpg" alt="David Ramirez" width="44" height="44" loading="lazy" />
+            <div>
+              <strong>David Ramirez</strong>
+              <span>Owner, Neighborhood Auto Care</span>
+            </div>
+            <span class="testimonial-channel" style="background:hsl(24,95%,53%,0.08);color:hsl(24,95%,45%)">SMS</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-footer reveal" data-delay="400">
+        <span>⭐ 4.9 / 5 avg rating</span>
+        <span class="divider"></span>
+        <span>500+ local businesses served</span>
+        <span class="divider"></span>
+        <span>98% client satisfaction</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <span class="badge gradient-bg">Get In Touch</span>
+          <h2>Ready to Dominate Your <span class="gradient-text">Neighborhood?</span></h2>
+          <p>Tell us about your business and we'll create a custom hyper-local marketing strategy tailored to your neighborhood.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(210,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <span>hello@neighbormail.com</span>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(210,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <span>(555) 123-4567</span>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="hsl(210,100%,50%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+              </div>
+              <span>Live chat available 9am–6pm EST</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal" data-delay="200">
+          <form id="contact-form" class="contact-form gradient-border">
+            <h3>Send Us a Message</h3>
+            <div class="form-field">
+              <svg class="field-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <input type="text" placeholder="Your Name *" required maxlength="100" />
+            </div>
+            <div class="form-field">
+              <svg class="field-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <input type="email" placeholder="Email Address *" required maxlength="255" />
+            </div>
+            <div class="form-field">
+              <svg class="field-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <input type="tel" placeholder="Phone Number (optional)" maxlength="20" />
+            </div>
+            <textarea placeholder="Tell us about your business and marketing goals... *" rows="4" required maxlength="1000"></textarea>
+            <button type="submit" class="btn btn-gradient btn-lg w-full gradient-shadow">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            </button>
+            <p class="form-note">We'll never share your information. Response within 24 hours.</p>
+          </form>
+          <div id="contact-success" class="contact-success hidden">
+            <div class="success-icon gradient-bg">✓</div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for your interest in NeighborMail. Our team will reach out within 24 hours.</p>
+            <button class="btn btn-gradient-outline btn-lg" onclick="resetForm()">Send Another Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="section">
+    <div class="container">
+      <div class="cta-wrapper reveal">
+        <div class="cta-inner">
+          <div class="cta-glow"></div>
+          <div class="cta-content">
+            <div class="cta-icon">🚀</div>
+            <h2>Start Reaching Your <br/><span class="gradient-text">Neighborhood Today</span></h2>
+            <p>Join hundreds of local businesses already growing with innovative hyper-local marketing powered by NeighborMail.</p>
+            <div class="cta-buttons">
+              <a href="#contact" class="btn btn-white btn-lg">Launch Campaign →</a>
+              <a href="#contact" class="btn btn-ghost btn-lg">✨ Schedule a Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo-full.png" alt="NeighborMail" class="footer-logo" />
+          <p>Hyper-local marketing that reaches every door. Connect with your neighborhood through calls, SMS, postcards, email, and social media.</p>
+          <div class="footer-location">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="hsl(24,95%,53%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            0.5-mile radius precision targeting
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <nav>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#channels">Channels</a>
+            <a href="#cta">Pricing</a>
+          </nav>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <nav>
+            <a href="#hero">About</a>
+            <a href="#hero">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#hero">Privacy</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © <span id="year"></span> NeighborMail. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
